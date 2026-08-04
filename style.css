@@ -49,3 +49,9 @@ a{
 /*global styles*/
 body{
     background: var(--soft-white);
+    color: var(--dark-charcoal);
+    font-family: var(--font-primary);
+    font-size: 0.85rem;
+    line-height: 1.35;
+}
+
