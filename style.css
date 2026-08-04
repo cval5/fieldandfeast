@@ -131,8 +131,19 @@ h3{
 
 .offering-grid{
     display:grid;
-    
+    gap: 0.75rem;
+    margin-top: 0.8rem;
 }
+
+.offering-grid article{
+    background: var(--olive-green);
+    border-radius: 6px;
+    box-shadow: var(--shadow);
+    color: var(--soft-white);
+    padding: 0.9rem;
+}
+
+
 
 
 
