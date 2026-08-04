@@ -156,7 +156,28 @@ h3{
     gap: 0.75rem;
 }
 
-figure
+figure{
+    background: var(--soft-white);
+    border-radius: 6px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+figure img{
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    width: 100%;
+}
+
+figcaption{
+    align-content: center;
+    min-height: 2.7rem;
+    padding: 0.45rem;
+    text-align: center;
+    font-style: italic;
+}
+
+
 
 
 
