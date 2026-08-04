@@ -225,7 +225,36 @@ footer nav ul{
     justify-content: center;
 }
 
+/*media (medium)*/
+@media (min-width: 600px){
+    body{
+        font-size: 1rem;
+    }
+    body>header{
+        padding: 2.5rem 1rem 1.5rem;
+    }
+    body>header img{
+        height: 190px;
+        margin-bottom: 1.2rem;
+        width: 190px;
+    }
+    h1{
+        font-size: 3.35rem;
+    }
+    body>header p{
+        font-size: 1.15rem;
+    }
+    main{
+        padding: 3rem 1.8rem 2rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.6rem;
+    }
 
+}
 
 
 
