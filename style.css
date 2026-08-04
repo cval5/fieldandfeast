@@ -72,3 +72,22 @@ body > header img{
     width: 145px;
 }
 
+h1{
+    font-size: 2.25rem;
+    line-height: 1.1;
+}
+
+body>header p{
+    font-style: italic;
+    margin-top: 0.75rem;
+}
+
+body>nav{
+    background: var(--champagne-gold);
+    color: var(--midnight-blue);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+
