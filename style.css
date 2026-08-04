@@ -55,3 +55,20 @@ body{
     line-height: 1.35;
 }
 
+body>header{
+    align-items: center;
+    background: var(--midnight-blue);
+    color: var(--soft-white);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 1rem 1rem;
+    text-align: center;
+}
+
+body > header img{
+    height: 145px;
+    margin-bottom: 0.8rem;
+    object-fit: contain;
+    width: 145px;
+}
+
